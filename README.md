@@ -1,2 +1,2 @@
 # Arabic-Emojipedia
-A collection of emojis with their names and descriptions in Arabic
+A comprehensive dataset of emojis and their descriptions in Arabic, for developers and language enthusiasts.
