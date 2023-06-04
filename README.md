@@ -2,7 +2,7 @@
 
 Welcome to the Arabic Emojis Dataset Repository!🎉🌟
 
-The aim of this repository is to serve as a linguistic resource for NLP researchers focusing on Arabic language and dialects. The included CSV file provides an easy way to substitute emojis with their corresponding Arabic descriptions, thereby enhancing interpretability and ensuring consistent representation in Arabic language and dialect datasets, including Moroccan and Tunisian Darija.
+The aim of the CSV file is to serve as a linguistic resource for NLP researchers focusing on Arabic language and dialects. The included CSV file provides an easy way to substitute emojis with their corresponding Arabic descriptions, thereby enhancing interpretability and ensuring consistent representation in Arabic language and dialect datasets, including Moroccan and Tunisian Darija.
 
 The dataset was created by processing the emoji dataset available at [https://github.com/datasets/emojis](https://github.com/datasets/emojis). We wholeheartedly encourage contributions to expand and enrich this resource further.
 
