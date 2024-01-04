@@ -24,3 +24,7 @@ The CSV file follows a structured format as shown below:
 The file contains a total of 4,733 emojis.
 
 🚀 Feel free to explore and leverage this dataset to enhance your NLP research in Arabic. We look forward to your contributions to make this resource even more comprehensive and valuable.
+
+## License
+
+This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
