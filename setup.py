@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='arabic_emojipedia',
-    version='1.0.2',
+    version='1.0.4',
     packages=find_packages(),
     install_requires=[],
     description='A Python package to get emoji descriptions in Arabic',

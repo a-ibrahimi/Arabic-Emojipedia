@@ -1,8 +1,10 @@
-Metadata-Version: 2.1
+Metadata-Version: 1.0
 Name: arabic-emojipedia
-Version: 1.0.2
+Version: 1.0.4
 Summary: A Python package to get emoji descriptions in Arabic
 Home-page: https://github.com/a-ibrahimi/Arabic-Emojipedia
 Author: Anass Ibrahimi
 Author-email: a.ibrahimi@tum.de
-License-File: LICENCE
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

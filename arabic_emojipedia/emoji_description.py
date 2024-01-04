@@ -1,18 +1,25 @@
-import csv
 from typing import Optional
+import pkg_resources
+import pandas as pd
+import logging
 
-def load_data_from_csv(path):
-    emoji_dict ={}
-    with open(path, 'r', encoding='utf-8') as file:
-        csv_reader = csv.DictReader(file)
-        for row in csv_reader:
-            emoji_dict[row['emoji']] = row['text']
-    return emoji_dict
+def load_data():
+    """Return a dictionary with the different emojis and their corresponding descriptions
 
-emoji_dict = load_data_from_csv('arabic_emojipedia/data/emojis.csv')
+    Contains the following fields:
+        emoji          str
+        text           str
+
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/emojis.csv')
+    return pd.read_csv(stream, encoding='utf-8')
+
+emoji_df = load_data()
 
 def get_emoji_description(emoji) -> Optional[str]:
-    try:
-        return emoji_dict[emoji]
-    except KeyError:
-        raise KeyError(f"Input '{emoji}' not found in the emoji dataset.")
+    text_for_emoji = emoji_df.loc[emoji_df['emoji'] == emoji, 'text'].values
+
+    if len(text_for_emoji) > 0:
+        return text_for_emoji[0]
+    else:
+        logging.error(f"No text found for emoji {emoji}")
