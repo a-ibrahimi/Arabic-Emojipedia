@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 Arabic_Emojipedia.egg-info/PKG-INFO
@@ -6,3 +7,7 @@ Arabic_Emojipedia.egg-info/dependency_links.txt
 Arabic_Emojipedia.egg-info/top_level.txt
 arabic_emojipedia/__init__.py
 arabic_emojipedia/emoji_description.py
+arabic_emojipedia.egg-info/PKG-INFO
+arabic_emojipedia.egg-info/SOURCES.txt
+arabic_emojipedia.egg-info/dependency_links.txt
+arabic_emojipedia.egg-info/top_level.txt
