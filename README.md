@@ -19,7 +19,7 @@ pip install arabic-emojipedia
 
 ### Usage Example
 ```py
-from arabic-emojipedia.emoji_description import get_emoji_description
+from arabic_emojipedia.emoji_description import get_emoji_description
 
 emoji = "😊"
 description = get_emoji_description(emoji)
