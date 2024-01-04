@@ -11,3 +11,4 @@ arabic_emojipedia.egg-info/PKG-INFO
 arabic_emojipedia.egg-info/SOURCES.txt
 arabic_emojipedia.egg-info/dependency_links.txt
 arabic_emojipedia.egg-info/top_level.txt
+arabic_emojipedia/data/emojis.csv
