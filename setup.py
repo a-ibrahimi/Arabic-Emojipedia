@@ -9,6 +9,7 @@ setup(
     author='Anass Ibrahimi',
     author_email='a.ibrahimi@tum.de',
     url='https://github.com/a-ibrahimi/Arabic-Emojipedia',
+    include_package_data=True,
     package_data={
         'arabic_emojipedia': ['data/*.csv'],  # Replace 'your_package_name' with your actual package name
     },
