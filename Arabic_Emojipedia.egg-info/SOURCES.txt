@@ -1,4 +1,4 @@
-LICENSE
+LICENCE
 README.md
 setup.py
 Arabic_Emojipedia.egg-info/PKG-INFO

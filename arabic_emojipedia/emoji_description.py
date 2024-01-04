@@ -9,7 +9,7 @@ def load_data_from_csv(path):
             emoji_dict[row['emoji']] = row['text']
     return emoji_dict
 
-emoji_dict = load_data_from_csv('emojis.csv')
+emoji_dict = load_data_from_csv('data/emojis.csv')
 
 def get_emoji_description(emoji) -> Optional[str]:
     try:
